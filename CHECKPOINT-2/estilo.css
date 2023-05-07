@@ -73,7 +73,7 @@ header nav ul li a:hover{
 
 .slideshow{
     position: relative;
-    left: 200px;
+    left: 280px;
 }
 
 .slideshow img{
@@ -93,7 +93,7 @@ header nav ul li a:hover{
 .menu-catalago ul{
     position: relative;
     top: 9px;
-    left: 30%;
+    left: 35%;
 }
 
 .menu-catalago ul li{
@@ -121,6 +121,7 @@ header nav ul li a:hover{
     height: 400px;
     margin-top: 10px;
     border-radius: 0px 0px 10px 10px;
+    
 }
 
 /*Footer*/
@@ -154,4 +155,8 @@ footer div a img{
 footer div a img:hover{
     background-color: whitesmoke;
     border-color: whitesmoke;
+}
+
+#sla{
+    
 }
