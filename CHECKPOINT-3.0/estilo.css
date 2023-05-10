@@ -207,7 +207,7 @@ footer div a img:hover{
     flex-direction: column;
     text-align: center;
     top: 20px;
-    left: 33%;
+    left: 25%;
     position: relative;
     width: 698px;
     height: 790px;
@@ -216,10 +216,12 @@ footer div a img:hover{
     background: -webkit-linear-gradient(180deg, rgba(64,11,11,1) 36%, rgba(102,12,12,1) 65%);
     background: linear-gradient(180deg, rgba(64,11,11,1) 36%, rgba(102,12,12,1) 65%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#400b0b",endColorstr="#660c0c",GradientType=1);    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 1000px;
+    border-radius: 10px;
     border-color: #d1c6c6;
     border-width: 10px;
     margin-bottom:50px ;
+    max-width: 70%;
+    box-shadow: 0px 8px 10px black;
 }
 
 #entrar{
@@ -246,4 +248,19 @@ footer div a img:hover{
     font-family: "descri", sans-serif;
     font-size: 30px;
     color: whitesmoke;
+}
+
+/*Servicos*/
+
+.servicosUl img{
+    width: 140px;
+    height: 140px;
+}
+.servicosUl p{
+    font-family: "descri", sans-serif;
+    color: white;
+}
+.servicosUl li{
+    font-family: "descri", sans-serif;
+    color: white;
 }
